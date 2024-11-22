@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Descripción</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqTV6RoprQ0mKYcV8JO3r5arIeFn2gIPFGw&s" alt="Avatar de estudiante">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">José Leonel López Almeida</h2> 
+        <p>Estudiando Ingeniería en Gestión y Desarrollo de Software, me interesa cómo las innovaciones tecnológicas pueden ser herramientas poderosas para resolver problemas complejos. A lo largo de mis estudios, he profundizado en metodologías ágiles y en el uso de tecnologías de última generación, con el objetivo de construir soluciones que sean escalables, seguras y fácilmente adaptables a futuros desafíos.</p>
+        <p>He complementado mi educación con habilidades en desarrollo de software, diseño de interfaces y análisis de datos, lo que me permite aportar tanto soluciones técnicas como creativas en mis proyectos.</p>
+        <p>Mi visión es construir una carrera en la que pueda contribuir al progreso de la sociedad mediante el uso responsable y efectivo de la tecnología.</p>  
+</div>
+</div>
+{% endblock %}
